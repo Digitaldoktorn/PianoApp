@@ -1,0 +1,77 @@
+html {
+  font-size: 10px;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.info {
+  font-size: 18px;
+  margin: 3em;
+  text-align: center;
+}
+
+small {
+  color: grey;
+}
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.key-white {
+  border: 0.4rem solid black;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem 0.5rem;
+  transition: all 0.07s ease;
+  width: 10rem;
+  height: 33rem;
+  text-align: center;
+  color: rgb(235, 235, 235);
+  background: white;
+  margin-top: -5em;
+  z-index: -1;
+  line-height: 15;
+}
+
+.key-black {
+  border: 0.4rem solid black;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem 0.5rem;
+  transition: all 0.07s ease;
+  width: 10rem;
+  height: 23.2rem;
+  text-align: center;
+  color: rgb(70, 70, 70);
+  background: black;
+  margin-bottom: -20rem;
+  line-height: 40rem;
+}
+
+.key-empty {
+  margin: 1rem;
+  padding: 1rem 0.5rem;
+  width: 10rem;
+  color: white;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 4rem;
+  color: #ffc600;
+}

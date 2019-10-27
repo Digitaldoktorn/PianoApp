@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Piano app</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="keys">
+      <div data-key="87" class="key-black">
+        <kbd>W<span class="sound"> Db</span></kbd>
+      </div>
+      <div data-key="69" class="key-black">
+        <kbd>E<span class="sound"> Eb</span></kbd>
+      </div>
+      <div class="key-empty">
+        <kbd></kbd>
+      </div>
+      <div data-key="84" class="key-black">
+        <kbd>T<span class="sound"> Gb</span></kbd>
+      </div>
+      <div data-key="89" class="key-black">
+        <kbd>Y<span class="sound"> Ab</span></kbd>
+      </div>
+      <div data-key="85" class="key-black">
+        <kbd>U<span class="sound"> Bb</span></kbd>
+      </div>
+      <div class="key-empty">
+        <kbd></kbd>
+        <span></span>
+      </div>
+    </div>
+    <div class="keys">
+      <div data-key="65" class="key-white">
+        <kbd>A<span class="sound"> C</span></kbd>
+      </div>
+      <div data-key="83" class="key-white">
+        <kbd>S<span class="sound"> D</span></kbd>
+      </div>
+      <div data-key="68" class="key-white">
+        <kbd>D<span class="sound"> E</span></kbd>
+      </div>
+      <div data-key="70" class="key-white">
+        <kbd>F<span class="sound"> F</span></kbd>
+      </div>
+      <div data-key="71" class="key-white">
+        <kbd>G<span class="sound"> G</span></kbd>
+      </div>
+      <div data-key="72" class="key-white">
+        <kbd>H<span class="sound"> A</span></kbd>
+      </div>
+      <div data-key="74" class="key-white">
+        <kbd>J<span class="sound"> B</span></kbd>
+      </div>
+      <div data-key="75" class="key-white">
+        <kbd>K<span class="sound"> C</span></kbd>
+      </div>
+    </div>
+    <div class="info">
+      <p>
+        Put on your headphones<br />
+        Hit keys on your keyboard (grey colour)<br />
+        Enjoy the beautful music!<br />
+      </p>
+
+      <small
+        >Inspiration from
+        <a href="https://javascript30.com/" target="_blank">Wes Bos</a></small
+      >
+    </div>
+
+    <audio data-key="65" src="Soundfiles/Piano.mf.C4.mp3"></audio>
+    <audio data-key="87" src="Soundfiles/Piano.mf.Db4.mp3"></audio>
+    <audio data-key="83" src="Soundfiles/Piano.mf.D4.mp3"></audio>
+    <audio data-key="69" src="Soundfiles/Piano.mf.Eb4.mp3"></audio>
+    <audio data-key="68" src="Soundfiles/Piano.mf.E4.mp3"></audio>
+    <audio data-key="70" src="Soundfiles/Piano.mf.F4.mp3"></audio>
+
+    <audio data-key="84" src="Soundfiles/Piano.mf.Gb4.mp3"></audio>
+    <audio data-key="71" src="Soundfiles/Piano.mf.G4.mp3"></audio>
+    <audio data-key="89" src="Soundfiles/Piano.mf.Ab4.mp3"></audio>
+    <audio data-key="72" src="Soundfiles/Piano.mf.A4.mp3"></audio>
+    <audio data-key="85" src="Soundfiles/Piano.mf.Bb4.mp3"></audio>
+    <audio data-key="74" src="Soundfiles/Piano.mf.B4.mp3"></audio>
+    <audio data-key="75" src="Soundfiles/Piano.mf.C5.mp3"></audio>
+    <script src="main.js"></script>
+  </body>
+</html>
